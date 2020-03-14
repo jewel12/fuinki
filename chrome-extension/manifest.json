@@ -1,0 +1,12 @@
+{
+  "name": "Fuinki",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "なぜか再生できるプレイヤー",
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": [
+      "content.js"
+    ]
+  }]
+}
